@@ -116,6 +116,10 @@ h4 {
   justify-content: center;
 }
 .box-1 {
+  background: rgb(221, 218, 218);
+  margin: 20px;
+  padding: 32px;
+  justify-content: center;
 }
 .popular-collection img {
   width: 300px;
@@ -126,13 +130,12 @@ h4 {
 
 footer {
   background: #e03b8b;
-  background-position: bottom;
   width: 100%;
   height: 240px;
-  position: relative;
-  bottom: 0px;
   margin-top: 90px;
   color: white;
+  position: relative;
+  bottom: -100px;
 }
 footer > .foot-element {
   text-align: center;
