@@ -32,7 +32,7 @@ header > h5 {
   color: #3a3a3a;
 }
 .nav-bar > ul > a > li {
-  margin-left: 34px;
+  margin: 3px 12px;
 }
 .nav-bar > ul > a > li {
   font-size: 14px;
@@ -45,6 +45,17 @@ header > h5 {
 .nav-bar > ul > a {
   text-decoration: none;
   color: #3a3a3a;
+}
+.nav-bar > ul > a:hover {
+  background: #e02c6d;
+  border-radius: 3px;
+  color: white;
+}
+.nav-bar > ul > a:hover .fa-search {
+  color: white;
+}
+.nav-bar > ul > a:hover .fa-shopping-cart {
+  color: white;
 }
 
 /* Front Part Start Here  */
