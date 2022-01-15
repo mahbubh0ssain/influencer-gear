@@ -168,6 +168,26 @@ h4 {
   left: 1030px;
 }
 
+/* Get in touch  section  */
+
+.get-in-touch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.get-in-touch h1 {
+  font-size: 50px;
+}
+.touch {
+  color: crimson;
+}
+input {
+  width: 250px;
+}
+textarea {
+  width: 250px;
+}
 /* Footer  */
 
 footer {
