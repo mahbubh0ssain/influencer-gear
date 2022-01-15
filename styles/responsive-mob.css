@@ -1,4 +1,4 @@
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 1080px) {
   body {
     width: 576px;
     margin: 0px 60px;
@@ -19,7 +19,7 @@
   } */
   .part-1 > h2 {
     font-size: 32px;
-    line-height: 1.2em
+    line-height: 1.2em;
   }
   .part-1 {
     margin-top: 400px;
