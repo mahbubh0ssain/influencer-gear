@@ -1,0 +1,10 @@
+@media only screen and (min-width: 577px) (max-width: 768px) {
+  body {
+    width: 576px;
+    margin: 0px;
+  }
+  .popular-collection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
