@@ -175,6 +175,7 @@ h4 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 123px;
 }
 .get-in-touch h1 {
   font-size: 50px;
@@ -218,4 +219,44 @@ footer p {
   background: rgba(255, 255, 255, 0.171);
   border-radius: 50%;
   color: white;
+}
+
+/* Media Query for Mobile Device  
+
+Max width+576px-------*/
+
+@media only screen and (max-width: 576px) {
+  body {
+    margin: 0px 10px;
+  }
+  nav {
+    display: none;
+  }
+  .font-part {
+    display: flex;
+    flex-direction: column;
+  }
+  .part-1 {
+    margin-top: 600px;
+    text-align: center;
+  }
+  .part-2 {
+    justify-content: center;
+  }
+  .logo-bar {
+    width: 300px;
+    margin-top: 90px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .popular-collection {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
