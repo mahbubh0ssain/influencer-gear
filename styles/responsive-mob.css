@@ -1,0 +1,62 @@
+@media only screen and (max-width: 576px) {
+  body {
+    width: 576px;
+    margin: 0px 60px;
+  }
+  .nav-bar {
+    display: none;
+  }
+  nav h5 {
+    font-size: 20px;
+    margin: 0px;
+    text-align: center;
+  }
+  .font-part {
+    display: block;
+  }
+  /* .part-2 {
+    margin-top: 400px;
+  } */
+  .part-1 > h2 {
+    font-size: 32px;
+    line-height: 1.2em
+  }
+  .part-1 {
+    margin-top: 400px;
+    justify-content: center;
+  }
+  .not {
+    display: none;
+  }
+  .camera {
+    width: 202px;
+    height: 190px;
+  }
+  .circle {
+    width: 257px;
+    height: 257px;
+  }
+
+  .logo-bar {
+    display: inline;
+    justify-content: center;
+    margin: 0px;
+  }
+  .logo-bar img {
+    width: 57px;
+    height: 15px;
+  }
+  hr {
+    display: none;
+  }
+
+  .popular-collection {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .see-more-btn {
+    margin: 0px;
+    position: absolute;
+    left: 200px;
+  }
+}
